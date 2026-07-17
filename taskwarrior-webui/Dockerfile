@@ -39,7 +39,4 @@ RUN cd /src/backend \
 
 EXPOSE 80
 
-RUN ls -la /run.sh
-RUN cat -A /run.sh
-
 CMD ["/run.sh"]

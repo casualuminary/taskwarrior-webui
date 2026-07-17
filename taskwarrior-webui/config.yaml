@@ -15,8 +15,7 @@ init: false
 
 ingress: true
 ingress_port: 80
-
-ports: {}
+panel_icon: mdi:clipboard-check
 
 map:
   - config:rw
