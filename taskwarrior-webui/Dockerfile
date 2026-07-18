@@ -19,8 +19,8 @@ COPY ./nginx/server.conf /etc/nginx/conf.d/default.conf
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
 
-ENV TASKRC="/config/.taskrc"
-ENV TASKDATA="/config/.task"
+ENV TASKRC=/config/taskwarrior-webui/.taskrc
+ENV TASKDATA=/config/taskwarrior-webui/.task
 
 ENV NODE_OPTIONS="--openssl-legacy-provider"
 

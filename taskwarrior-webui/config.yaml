@@ -18,7 +18,9 @@ ingress_port: 80
 panel_icon: mdi:clipboard-check
 
 map:
-  - config:rw
+  - type: addon_config
+    path: /config/taskwarrior-webui
+    read_only: false
 
 options: {}
 
